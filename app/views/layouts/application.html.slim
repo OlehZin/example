@@ -10,5 +10,5 @@ html
     = javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' 
 
   body
-    = link_to 'Log out', destroy_user_session_path, method: :delete, :data => { :no_turbolink => true }
-    == yield 
+    = link_to 'Log out', destroy_user_session_path, method: :delete, data: { :no_turbolink => true }
+    = yield 
