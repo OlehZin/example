@@ -9,6 +9,8 @@ gem "slim-rails"
 
 gem 'simple_form'
 
+gem 'meta-tags'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '6.0.0'
 # Use postgresql as the database for Active Record
